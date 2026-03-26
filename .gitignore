@@ -4,3 +4,4 @@ tasks/
 .claude/
 *.log
 .DS_Store
+skill-creation-prompt.md
