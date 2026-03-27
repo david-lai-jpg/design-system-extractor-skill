@@ -1,0 +1,354 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "color": {
+    "blue": {
+      "50": {
+        "$value": "#e8f1f8",
+        "$type": "color",
+        "$description": "Brand primary lightest. Source: CSS --etoil-primary-light. Found on all pages."
+      },
+      "300": {
+        "$value": "#5a9fd6",
+        "$type": "color",
+        "$description": "Gradient start color. Source: CSS --etoil-primary-gradient."
+      },
+      "400": {
+        "$value": "#4da6ff",
+        "$type": "color",
+        "$description": "Button glow shadow color. Source: branding (3 pages)."
+      },
+      "500": {
+        "$value": "#478ccb",
+        "$type": "color",
+        "$description": "Brand primary blue. Source: branding (5 pages) + CSS --etoil-primary."
+      },
+      "700": {
+        "$value": "#2d5a8f",
+        "$type": "color",
+        "$description": "Brand primary dark. Source: CSS --etoil-primary-dark."
+      }
+    },
+    "teal": {
+      "50": {
+        "$value": "#e6fff9",
+        "$type": "color",
+        "$description": "Accent lightest. Source: CSS --etoil-accent-light."
+      },
+      "500": {
+        "$value": "#00d4aa",
+        "$type": "color",
+        "$description": "Accent teal / success. Source: CSS --etoil-accent."
+      }
+    },
+    "red": {
+      "100": {
+        "$value": "#fee2e2",
+        "$type": "color",
+        "$description": "Destructive light bg. Source: CSS --color-red-100 (Tailwind)."
+      },
+      "500": {
+        "$value": "#ef4444",
+        "$type": "color",
+        "$description": "Destructive mid. Source: CSS --color-red-500 (Tailwind)."
+      },
+      "600": {
+        "$value": "#dc2626",
+        "$type": "color",
+        "$description": "Destructive primary. Source: CSS shadcn --destructive (oklch converted)."
+      }
+    },
+    "slate": {
+      "50": {
+        "$value": "#f8fafc",
+        "$type": "color",
+        "$description": "Surface muted bg. Source: branding + CSS --color-slate-50."
+      },
+      "100": {
+        "$value": "#f1f5f9",
+        "$type": "color",
+        "$description": "Subtle bg. Source: CSS --color-slate-100."
+      },
+      "200": {
+        "$value": "#e2e8f0",
+        "$type": "color",
+        "$description": "Border default. Source: branding (contact) + CSS --etoil-border."
+      },
+      "500": {
+        "$value": "#4a6580",
+        "$type": "color",
+        "$description": "Muted text. Source: branding (homepage) + CSS --etoil-dark-muted."
+      },
+      "600": {
+        "$value": "#475569",
+        "$type": "color",
+        "$description": "Secondary text. Source: CSS --color-slate-600."
+      },
+      "700": {
+        "$value": "#334155",
+        "$type": "color",
+        "$description": "Dark secondary. Source: CSS --color-slate-700."
+      },
+      "900": {
+        "$value": "#1a2b3c",
+        "$type": "color",
+        "$description": "Primary text / dark. Source: branding (5 pages) + CSS --etoil-dark."
+      },
+      "950": {
+        "$value": "#0f172a",
+        "$type": "color",
+        "$description": "Darkest neutral. Source: CSS --color-slate-900 (Tailwind)."
+      }
+    },
+    "white": {
+      "$value": "#ffffff",
+      "$type": "color",
+      "$description": "Pure white. Source: branding (5 pages) + CSS."
+    },
+    "black": {
+      "$value": "#000000",
+      "$type": "color",
+      "$description": "Pure black. Source: CSS --color-black."
+    }
+  },
+  "font": {
+    "display": {
+      "$value": "\"Plus Jakarta Sans\", \"Noto Sans TC\", sans-serif",
+      "$type": "fontFamily",
+      "$description": "Heading/display font. Source: CSS --font-display + branding (5 pages)."
+    },
+    "body": {
+      "$value": "\"Noto Sans TC\", \"Plus Jakarta Sans\", sans-serif",
+      "$type": "fontFamily",
+      "$description": "Body text font. Source: CSS --font-body + branding (5 pages)."
+    },
+    "sans": {
+      "$value": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+      "$type": "fontFamily",
+      "$description": "System sans-serif stack. Source: CSS --font-sans."
+    },
+    "mono": {
+      "$value": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "$type": "fontFamily",
+      "$description": "Monospace stack. Source: CSS --font-mono."
+    },
+    "size": {
+      "xs": { "$value": "0.75rem", "$type": "dimension", "$description": "12px. Source: CSS --text-xs." },
+      "sm": { "$value": "0.875rem", "$type": "dimension", "$description": "14px. Source: CSS --text-sm." },
+      "base": { "$value": "1rem", "$type": "dimension", "$description": "16px. Source: CSS --text-base." },
+      "lg": {
+        "$value": "1.125rem",
+        "$type": "dimension",
+        "$description": "18px. Body text size (3/5 pages). Source: branding + CSS --text-lg."
+      },
+      "xl": {
+        "$value": "1.25rem",
+        "$type": "dimension",
+        "$description": "20px. Source: branding (about page body) + CSS --text-xl."
+      },
+      "2xl": { "$value": "1.5rem", "$type": "dimension", "$description": "24px. Source: CSS --text-2xl." },
+      "3xl": { "$value": "1.875rem", "$type": "dimension", "$description": "30px. Source: CSS --text-3xl." },
+      "4xl": { "$value": "2.25rem", "$type": "dimension", "$description": "36px. Source: CSS --text-4xl." },
+      "5xl": {
+        "$value": "2.5rem",
+        "$type": "dimension",
+        "$description": "40px. h2 size (4/5 pages). Source: branding."
+      },
+      "6xl": {
+        "$value": "3.5rem",
+        "$type": "dimension",
+        "$description": "56px. h1 size (4/5 pages). Source: branding."
+      }
+    },
+    "weight": {
+      "light": { "$value": "300", "$type": "fontWeight", "$description": "Source: Google Fonts (Noto Sans TC)." },
+      "normal": { "$value": "400", "$type": "fontWeight", "$description": "Source: CSS --font-weight-normal." },
+      "medium": { "$value": "500", "$type": "fontWeight", "$description": "Source: CSS --font-weight-medium." },
+      "semibold": { "$value": "600", "$type": "fontWeight", "$description": "Source: CSS --font-weight-semibold." },
+      "bold": { "$value": "700", "$type": "fontWeight", "$description": "Source: CSS --font-weight-bold." }
+    }
+  },
+  "leading": {
+    "tight": { "$value": "1.2", "$type": "number", "$description": "Source: CSS --text-3xl--line-height." },
+    "snug": { "$value": "1.375", "$type": "number", "$description": "Source: CSS --leading-snug." },
+    "normal": {
+      "$value": "1.5",
+      "$type": "number",
+      "$description": "Source: CSS --leading-normal + --text-base--line-height."
+    },
+    "relaxed": { "$value": "1.625", "$type": "number", "$description": "Source: CSS --leading-relaxed." }
+  },
+  "tracking": {
+    "tight": { "$value": "-0.025em", "$type": "dimension", "$description": "Source: CSS --tracking-tight." },
+    "widest": { "$value": "0.1em", "$type": "dimension", "$description": "Source: CSS --tracking-widest." }
+  },
+  "space": {
+    "0-5": { "$value": "0.125rem", "$type": "dimension" },
+    "1": {
+      "$value": "0.25rem",
+      "$type": "dimension",
+      "$description": "Base spacing unit (4px). Source: CSS --spacing."
+    },
+    "1-5": { "$value": "0.375rem", "$type": "dimension" },
+    "2": { "$value": "0.5rem", "$type": "dimension" },
+    "2-5": { "$value": "0.625rem", "$type": "dimension" },
+    "3": { "$value": "0.75rem", "$type": "dimension" },
+    "4": { "$value": "1rem", "$type": "dimension" },
+    "5": { "$value": "1.25rem", "$type": "dimension" },
+    "6": { "$value": "1.5rem", "$type": "dimension" },
+    "8": { "$value": "2rem", "$type": "dimension" },
+    "10": { "$value": "2.5rem", "$type": "dimension" },
+    "12": { "$value": "3rem", "$type": "dimension" },
+    "16": { "$value": "4rem", "$type": "dimension" },
+    "20": { "$value": "5rem", "$type": "dimension" },
+    "24": { "$value": "6rem", "$type": "dimension" }
+  },
+  "radius": {
+    "xs": { "$value": "0.125rem", "$type": "dimension", "$description": "2px. Source: CSS --radius-xs." },
+    "sm": { "$value": "0.25rem", "$type": "dimension", "$description": "4px. Base border-radius from branding." },
+    "md": { "$value": "0.625rem", "$type": "dimension", "$description": "10px. Source: CSS --radius." },
+    "lg": {
+      "$value": "0.75rem",
+      "$type": "dimension",
+      "$description": "12px. Button/input radius from branding (3+ pages)."
+    },
+    "full": {
+      "$value": "100px",
+      "$type": "dimension",
+      "$description": "Pill shape. CTA button radius from branding (3 pages)."
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$value": "0 1px 3px #0000000f, 0 1px 2px #0000000a",
+      "$type": "shadow",
+      "$description": "Source: CSS --etoil-shadow-sm."
+    },
+    "md": {
+      "$value": "0 4px 12px #00000014, 0 2px 4px #0000000a",
+      "$type": "shadow",
+      "$description": "Source: CSS --etoil-shadow-md."
+    },
+    "lg": {
+      "$value": "0 20px 60px #4da6ff26, 0 8px 20px #0000000f",
+      "$type": "shadow",
+      "$description": "Blue-tinted large shadow. Source: CSS --etoil-shadow-lg."
+    },
+    "glow": {
+      "$value": "0 4px 15px rgba(77, 166, 255, 0.3)",
+      "$type": "shadow",
+      "$description": "Button glow effect. Source: branding (3 pages)."
+    }
+  },
+  "gradient": {
+    "primary": {
+      "$value": "linear-gradient(135deg, #5a9fd6 0%, #478ccb 100%)",
+      "$type": "gradient",
+      "$description": "Brand gradient. Source: CSS --etoil-primary-gradient."
+    }
+  },
+  "animation": {
+    "easeInOut": { "$value": "cubic-bezier(0.4, 0, 0.2, 1)", "$type": "cubicBezier" },
+    "durationDefault": { "$value": "0.15s", "$type": "duration" }
+  },
+  "semantic": {
+    "surface": {
+      "default": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Page background. DOM context: body background-color on all pages."
+      },
+      "muted": {
+        "$value": "{color.slate.50}",
+        "$type": "color",
+        "$description": "Section backgrounds. DOM context: alternating section bg."
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "{color.slate.900}",
+        "$type": "color",
+        "$description": "Primary text. DOM context: body color on all pages."
+      },
+      "muted": {
+        "$value": "{color.slate.500}",
+        "$type": "color",
+        "$description": "Secondary/muted text. DOM context: subtitle/description text."
+      },
+      "onPrimary": {
+        "$value": "{color.white}",
+        "$type": "color",
+        "$description": "Text on primary-colored backgrounds."
+      }
+    },
+    "interactive": {
+      "primary": {
+        "$value": "{color.blue.500}",
+        "$type": "color",
+        "$description": "Links and primary actions. DOM context: a elements, button bg."
+      },
+      "primaryHover": {
+        "$value": "{color.blue.700}",
+        "$type": "color",
+        "$description": "Hover state for primary actions."
+      },
+      "accent": {
+        "$value": "{color.teal.500}",
+        "$type": "color",
+        "$description": "Accent interactions and success states."
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{color.slate.200}",
+        "$type": "color",
+        "$description": "Default border. DOM context: input borders, dividers."
+      }
+    },
+    "status": {
+      "success": {
+        "$value": "{color.teal.500}",
+        "$type": "color",
+        "$description": "Success state. DOM context: contact form success checkmark."
+      },
+      "error": { "$value": "{color.red.500}", "$type": "color", "$description": "Error/destructive state." }
+    }
+  },
+  "component": {
+    "button": {
+      "primary": {
+        "bg": {
+          "$value": "{gradient.primary}",
+          "$type": "gradient",
+          "$description": "CTA button background (pill style, 3+ pages)."
+        },
+        "text": { "$value": "{semantic.text.onPrimary}", "$type": "color" },
+        "radius": { "$value": "{radius.full}", "$type": "dimension" },
+        "shadow": { "$value": "{shadow.glow}", "$type": "shadow" }
+      },
+      "secondary": {
+        "bg": {
+          "$value": "transparent",
+          "$type": "color",
+          "$description": "Outlined button (product, about, contact pages)."
+        },
+        "text": { "$value": "{semantic.interactive.primary}", "$type": "color" },
+        "border": { "$value": "{semantic.interactive.primary}", "$type": "color" },
+        "radius": { "$value": "{radius.lg}", "$type": "dimension" }
+      }
+    },
+    "input": {
+      "bg": { "$value": "{semantic.surface.default}", "$type": "color" },
+      "text": { "$value": "{semantic.text.primary}", "$type": "color" },
+      "border": { "$value": "{semantic.border.default}", "$type": "color" },
+      "radius": { "$value": "{radius.lg}", "$type": "dimension" }
+    },
+    "nav": {
+      "bg": { "$value": "{semantic.surface.default}", "$type": "color" },
+      "text": { "$value": "{semantic.text.primary}", "$type": "color" },
+      "ctaBg": { "$value": "{gradient.primary}", "$type": "gradient" },
+      "ctaText": { "$value": "{semantic.text.onPrimary}", "$type": "color" },
+      "ctaRadius": { "$value": "{radius.full}", "$type": "dimension" },
+      "ctaShadow": { "$value": "{shadow.glow}", "$type": "shadow" }
+    }
+  }
+}
